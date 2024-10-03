@@ -1,148 +1,47 @@
-About The Project
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-
-You should implement DRY principles to the rest of your life 😄
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the BLANK_README.md to get started.
-
-(back to top)
-
-Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-
-
-(back to top)
-
-Getting Started
-
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
-
-Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-npm
-
-npm install npm@latest -g
-
-Installation
-
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
-
-Get a free API Key at https://example.com
-
-Clone the repo
-
-git clone https://github.com/github_username/repo_name.git
-
-Install NPM packages
-
-npm install
-
-Enter your API in config.js
-
-const API_KEY = 'ENTER YOUR API';
-
-Change git remote url to avoid accidental pushes to base project
-
-git remote set-url origin github_username/repo_name git remote -v # confirm the changes
-
-(back to top)
-
-Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-For more examples, please refer to the Documentation
-
-(back to top)
-
-Roadmap
-
- Add Changelog
-
- Add back to top links
-
- Add Additional Templates w/ Examples
-
- Add "components" document to easily copy & paste sections of the readme
-
- Multi-language Support
-
- Chinese
-
- Spanish
-
-See the open issues for a full list of proposed features (and known issues).
-
-(back to top)
-
-Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-Top contributors:
-
-￼
-
-(back to top)
-
-License
-
-Distributed under the MIT License. See LICENSE.txt for more information.
-
-(back to top)
-
-Contact
-
-Your Name - @your_twitter - email@example.com
-
-Project Link: https://github.com/your_username/repo_name
-
-(back to top)
-
-Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-Choose an Open Source License
-
-GitHub Emoji Cheat Sheet
-
-Malven's Flexbox Cheatsheet
-
-Malven's Grid Cheatsheet
-
-Img Shields
-
-GitHub Pages
-
-Font Awesome
-
-React Icons
-
-
-xyz
+Open Source Doctor Appointment Booking System using PHP
+
+Edoc is a Simple web project that is made for e-channeling Using PHP,HTML & CSS. This initiative facilitates online appointment requests for clients or patients of medical establishments, including clinics and hospitals. This project can also help doctors to manage their appointment with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system comprises three key roles: administrator, doctor, and patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients can browse the doctor's appointment system website to find a doctor that has the specialty of their needs. Patients can review the doctor's weekly schedule, enabling them to select a suitable day and time for their appointment. Subsequently, they can submit their appointment request. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.
+
+Features
+Admin
+Admin can add doctors, edit doctors, delete doctors
+Schedule new doctors sessions, remove sessions
+View patients details
+View booking of patients
+Doctors
+View their Appointment
+View their scheduled sessions
+View details of patients
+Delete account
+Eedit account settings
+Patiens(Clients)
+Make appointment online
+Create accounts themslves
+View their old booking
+Delete account
+Edit account settings
+Admin Dashboard	Doctor Dashboard	Patient Dashboard
+Email: admin@edoc.com	Email: doctor@edoc.com	Email: patient@edoc.com
+Password: 123	Password: 123	Password: 123
+		
+GET STARTED
+Open your XAMPP Control Panel and start Apache and MySQL.
+Extract the downloaded source code zip file.
+Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
+Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+Create a new database naming edoc.
+Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
+Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
+Screenshots
+			
+			
+The Project was developed using the following:
+Apache Version: 2.4.39
+
+PHP Version: 7.3.5
+
+Server Software: Apache/2.4.39 (Win64) PHP/7.3.5
+
+MySQL Version: 5.7.26
+
+Demo video: https://youtu.be/mAWHYAHmit4
