@@ -1,0 +1,391 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  #logo {
+    font-size: 20px;
+    color: white;
+  }
+
+  #navbar-parent {
+    display: flex;
+    height: 50px;
+    width: auto;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+
+  }
+
+  .menu {
+    display: flex;
+    gap: 35px;
+  }
+
+  .services {
+    position: relative;
+  }
+
+  .dropdown {
+    position: absolute;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 3px;
+    display: none;
+    left: 20px;
+    top: 38px;
+  }
+
+  .dropdown li {
+    width: 80px;
+    padding: 5px 0px;
+  }
+
+  .dropdown li a {
+    text-align: left;
+  }
+
+  .dropdown li a:hover {
+    color: pink;
+  }
+
+  .services:hover .dropdown {
+    display: block;
+
+  }
+
+  .services:hover .ri-arrow-down-s-fill {
+    display: inline;
+
+  }
+
+  .services:hover .ri-arrow-up-s-fill {
+    display: none;
+
+  }
+
+  .menu li {
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .menu li:hover {
+    background-color: lightgray;
+  }
+
+  .hamburger {
+    font-size: 25px;
+    display: none;
+
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .ri-arrow-down-s-fill {
+    display: none;
+  }
+
+  @media (max-width:700px) {
+    .menu {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      display: none;
+      background-color: lightgray;
+      text-align: center;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    input[type="checkbox"]:checked~.menu {
+      display: block;
+    }
+
+    .dropdown {
+      left: 60%;
+      background-color: gray;
+    }
+
+    .menu li:hover {
+      background-color: gray;
+    }
+
+    .dropdown li a {
+      text-align: left;
+    }
+}
+
+
+#nav1{
+  /* display: flex; */
+  height: 88px;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 107px;
+}
+
+#nav1_1{
+  display:flex; 
+  gap:34px;
+}
+
+#nav2{
+  display: flex;
+  background-color: rgb(14, 37, 86);
+  height: 39px;
+  margin: auto;
+}
+
+.a1{
+  text-decoration: none !important;
+  color:rgb(14, 37, 86);
+  font-weight:bolder;
+  font-size: 145%;
+}
+
+.a2{
+  text-decoration: none !important;
+  color:rgb(24 53 115);
+  font-weight:bolder;
+  font-size: 138%;
+}
+
+.hamburger2 {
+  font-size: 25px;
+  color:white;
+  display: none;
+}
+
+#menu1{
+  list-style-type: none;
+  display:flex;
+  gap:36px;
+  align-items: center;
+  margin:auto;
+} 
+
+.a1:hover{
+  transition: .5s ease;
+  color:rgb(14, 37, 86);
+}
+
+.a2:hover{
+  transition: .5s ease;
+  color:red;
+}
+
+.red{
+  color:red;
+}
+
+#menu1{
+  list-style-type: none;
+  display:flex;
+  gap:36px;
+  align-items: center;
+  margin:auto;
+} 
+
+.menu2{
+  list-style-type: none;
+  text-align: left;
+  bottom: 328px;
+  color: white;
+  line-height: 38px;
+  left: -10px;
+  position: absolute;
+  margin: auto;
+} 
+
+.profile_drop{
+    position: fixed;
+    background-color: rgb(24 53 115);
+    top:0px;
+    right:0px;
+    width:250px;
+    height:600px;
+    display: none;
+    z-index:1;
+}
+
+#lblCartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+.badge {
+padding-left: 9px;
+padding-right: 9px;
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+#search{
+  width:686px;
+  margin-left:30px
+}
+
+.search_box{
+  height: 38px;
+  width: 656px;
+  margin-top: 20px;
+  padding-left: 23px;
+  border-radius: 29px;
+  border: 2.5px solid rgb(14, 37, 86);
+}
+
+.searchbutton{
+ position:relative;
+ bottom:32px;
+ left:642px;
+ color:rgb(13, 17, 94);
+ cursor:pointer;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+
+  #menu1{
+      display: none;
+  
+  }
+
+  .navhome{
+    display: none;
+  }
+
+  .search_box{
+    width:200px;
+  }
+
+  #search{
+    width:458px;
+  }
+
+  .searchbutton{
+    left:-40px;
+    bottom:0px;
+  }
+
+  .card2{
+    height: 20px;
+    width: 215px;
+  }
+
+
+  #menu{
+    display: none;
+  }
+
+  .search_box{
+    width: 406px;
+  }
+      
+  .hamburger2 {
+      font-size: 25px;
+      color:white;
+      display: block;
+      margin:auto;
+      }
+  
+  input[type="checkbox"]:checked~#menu1 {
+        display: block;
+        height:auto;
+        width:100%;
+        position:absolute;
+        text-align: center;
+        line-height: 43px;
+        top:125px;
+        background-color: rgb(21, 56, 131);
+      }   
+  
+  #menu1 li:hover {
+        background-color: rgb(14, 37, 86);
+      }
+  .a2:hover{
+      transition: .5s ease;
+      color:white;
+  }           
+  
+  #header #nav1_1{
+      gap:20px;
+      position:relative;
+      bottom:-12px;
+  }   
+  } 
+
+
+.container_12 {
+  width: 93%;
+  margin-left: 47px;
+  overflow: hidden;
+}
+
+header {
+  /* background: rgb(6, 14, 35); */
+  z-index:6;
+  color: #ffffff;
+  width:100%;
+  padding: 12px 0;
+  border-bottom: 3px solid rgb(24, 53, 115);
+  /* border-bottom: #e8491d 3px solid; */
+}
+
+header .logo {
+  float: left;
+  width: 450px;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  padding: 28px;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 0 0 30px 0;
+  color: #f8fafc;
+}
+
+header nav ul li a:hover{
+  color:rgb(24, 53, 115)
+}

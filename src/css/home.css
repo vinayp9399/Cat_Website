@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.content{
+    height: 1316px;
+    width: auto;
+    background-color: rgb(254, 253, 253);
+}
+
+.img2{
+    width:100%;
+    height:425px;
+}
+
+
+.heading{
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+.heading:hover{
+    transition: .5s ease;
+    color:rgb(254, 3, 3) !important;
+}
+
+.card1{
+    height: 409px;
+    width: 387px;
+    border:3px solid rgb(14, 37, 86);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 5px 14px;
+    box-sizing: border-box;
+    float: left;
+    margin: 17px;
+    padding: 10px;
+}
+
+.card_child{
+    height: 181px;
+    width: 198px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    margin: -9px;
+    padding: 1px;
+}
+
+.img1_1{
+    border-radius: 10px;
+    width: 160px;
+    float: left;
+    margin: 17px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
