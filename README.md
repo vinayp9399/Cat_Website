@@ -20,10 +20,10 @@ Create accounts themslves
 View their old booking
 Delete account
 Edit account settings
-Admin Dashboard	Doctor Dashboard	Patient Dashboard
-Email: admin@edoc.com	Email: doctor@edoc.com	Email: patient@edoc.com
-Password: 123	Password: 123	Password: 123
-		
+Admin Dashboard Doctor Dashboard    Patient Dashboard
+Email: admin@edoc.com   Email: doctor@edoc.com  Email: patient@edoc.com
+Password: 123   Password: 123   Password: 123
+        
 GET STARTED
 Open your XAMPP Control Panel and start Apache and MySQL.
 Extract the downloaded source code zip file.
@@ -33,8 +33,8 @@ Create a new database naming edoc.
 Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
 Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
 Screenshots
-			
-			
+            
+            
 The Project was developed using the following:
 Apache Version: 2.4.39
 
